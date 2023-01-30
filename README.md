@@ -3,6 +3,12 @@ Towards Lifting the Trade-off between Accuracy and Adversarial Robustness of Dee
 
 For classification:
 
+##requirements:
+python3.8.10
+pytorch1.9.0
+
+
+#guide:
 1. go to "DNNRobustness/app/COVID19a/" for the COVID19 experiment:
 1.1 run train.py to get baseline model;
 1.2 run train_adv.py to get model trained with our proposed adversarial training.
@@ -10,7 +16,8 @@ For classification:
 2.1 run train.py to get baseline model;
 2.2 run train_adv.py to get model trained with our proposed adversarial training.
 
-For segmentation:
+##For segmentation:
+
 1. Please go to this link(https://github.com/MIC-DKFZ/nnUNet) for instructions on installing and configuring nnUnet and dependent libraries.
 2. All the experimental data can be downloaded from http://medicaldecathlon.com/ or as shown in paper(Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2020). nnU-Net: a self-configuring method 
 for deep learning-based biomedical image segmentation. Nature Methods, 1-9.)
