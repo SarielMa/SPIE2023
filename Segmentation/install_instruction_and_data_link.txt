@@ -3,9 +3,7 @@
 for deep learning-based biomedical image segmentation. Nature Methods, 1-9.)
 3. Go to "nnunet/run/"
 4. use "python run_training --task id" to get the baseline model
-5. use "python run_IMA_training --task id" to get the IMA model
-6. use "python run_PGD_training --task id" to get the PGD model
-6. use "run_my_evaluation.py" to get the evaluation result.
+5. use "python run_our_training --task id" to get the model with our proposed adversarial training
 
 The experiment was run on Tesla V100 GPUs, CentOS system.
 
